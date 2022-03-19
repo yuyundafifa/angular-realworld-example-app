@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2022-01-23T15:41:37" tests="0" file="cypress/integration/secondTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test log out" timestamp="2022-01-23T15:41:38" tests="1" time="5.8410" failures="0">
+  
+  <testcase name="Test log out verify user can log out successfully" time="5.7970" classname="verify user can log out successfully"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-01-23T15:40:29" tests="0" file="cypress/integration/firstTest.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Test with backend" timestamp="2022-01-23T15:40:29" tests="5" time="47.3380" failures="2">
+  
+  <testcase name="Test with backend verify correct request and response" time="0.0000" classname="verify correct request and response">
+    
+    <failure message="Cannot read properties of undefined (reading &apos;statusCode&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Context.eval (http://localhost:4200/__cypress/tests?p=cypress/integration/firstTest.spec.js:120:27)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Test with backend intercepting and modifying the request and response" time="0.0000" classname="intercepting and modifying the request and response">
+    
+    <failure message="Cannot read properties of undefined (reading &apos;description&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'description')
+    at eval (http://localhost:4200/__cypress/tests?p=cypress/integration/firstTest.spec.js:135:33)]]></failure>
+    
+  </testcase>
+  
+  <testcase name="Test with backend should gave tags with routing object" time="6.4830" classname="should gave tags with routing object"></testcase>
+  
+  <testcase name="Test with backend verify global feed likes count" time="8.8340" classname="verify global feed likes count"></testcase>
+  
+  <testcase name="Test with backend delete a new article in a global feed" time="8.3820" classname="delete a new article in a global feed"></testcase>
+  
+</testsuite>
+
+</testsuites>

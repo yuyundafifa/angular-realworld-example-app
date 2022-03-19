@@ -1,0 +1,18 @@
+{
+    "baseUrl": "http://localhost:4200/",
+    "ignoreTestFiles": ["**/1-getting-started/*", "**/2-advanced-examples/*"],
+    "viewportHeight": 768,
+    "viewportWidth": 1024,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    },
+    "env": {
+        "retries": 2,
+        "username": "yuyun.dwi87@gmail.com",
+        "password": "Test1",
+        "apiUrl": "https://api.realworld.io/"
+    }
+    
+    
+}
